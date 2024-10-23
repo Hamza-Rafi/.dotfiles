@@ -45,6 +45,7 @@
 #battery,
 #wireplumber,
 #custom-lock,
+#upower,
 #custom-power {
   background-color: @surface0;
   padding: 0.5rem 1rem;
@@ -82,6 +83,11 @@
 }
 #memory{
   border-radius: 1rem 0rem 0rem 1rem;
+}
+
+#upower{
+  border-radius: 1rem 1rem 1rem 1rem;
+  margin-right: 1rem;
 }
 
 #wireplumber {
