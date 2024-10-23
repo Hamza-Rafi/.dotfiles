@@ -1,0 +1,12 @@
+[Default Applications]
+image/jpeg=org.gnome.eog.desktop
+image/png=org.gnome.eog.desktop
+application/vnd.efi.iso=gnome-disk-image-writer.desktop
+inode/directory=org.gnome.Nautilus.desktop
+text/plain=org.gnome.gedit.desktop
+
+[Added Associations]
+image/jpeg=org.gnome.eog.desktop;
+image/png=org.gnome.eog.desktop;
+application/vnd.efi.iso=gnome-disk-image-writer.desktop;
+text/plain=org.gnome.gedit.desktop;
