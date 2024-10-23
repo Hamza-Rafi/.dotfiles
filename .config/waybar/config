@@ -3,7 +3,7 @@
     "position": "top", // Waybar position (top|bottom|left|right)
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["custom/music"],
-    "modules-right": ["memory", "cpu", "wireplumber", "clock", "tray", "custom/lock", "custom/power"],
+    "modules-right": ["wireplumber", "clock", "tray", "upower", "custom/lock", "custom/power"],
     "hyprland/workspaces": {
          "disable-scroll": true,
          "sort-by-name": true,
@@ -11,6 +11,10 @@
          "format-icons": {
              "default": "",
          },
+     },
+     "upower": {
+	"icon-size": 20,
+	"format": " {percentage}",
      },
     "cpu": {
 	"interval": 2,
