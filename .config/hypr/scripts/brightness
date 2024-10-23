@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ $1 == "up" ]; then
+	brightnessctl -q s 10%+ 
+elif [ $1 == "down" ]; then
+	brightnessctl -q -n s 10%-
+fi
+
+brightness=$(brightnessctl -m | awk -F "," '{print substr($4, 1, length($4)-1)}')
+echo $brightness
+
+dunstify "Brightness: " -h int:value:$brightness
