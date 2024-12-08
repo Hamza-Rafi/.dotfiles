@@ -26,3 +26,7 @@ alias ga='git add'
 alias cat=bat
 alias ssh='kitten ssh'
 PS1='[\u@\h \W]\$ '
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"
+eval "$(starship init bash)"
+
