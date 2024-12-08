@@ -34,6 +34,7 @@ eval "$(starship init bash)"
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
 
+eval "$(zoxide init bash --cmd cd)"
 # pnpm
 export PNPM_HOME="/home/hamza/.local/share/pnpm"
 case ":$PATH:" in
