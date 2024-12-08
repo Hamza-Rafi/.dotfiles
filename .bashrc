@@ -30,3 +30,16 @@ PS1='[\u@\h \W]\$ '
 eval "$(fzf --bash)"
 eval "$(starship init bash)"
 
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
+
+# pnpm
+export PNPM_HOME="/home/hamza/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+export PATH=$PATH:/home/hamza/.cargo/bin
