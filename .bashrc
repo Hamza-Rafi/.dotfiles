@@ -10,10 +10,13 @@ alias grep='grep --color=always'
 alias ip='ip --color=always'
 alias less='less -R'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+
 alias lazyvim='NVIM_APPNAME=lazynvim nvim'
+
 alias l=ls
 alias ll='ls -l'
 alias la='ls -a'
+
 # git binds
 alias gi='git init'
 alias gs='git status'
@@ -24,9 +27,12 @@ alias gc='git commit -m'
 alias gco='git checkout'
 alias gd='git diff'
 alias ga='git add'
+
 alias cat=bat
 alias ssh='kitten ssh'
+
 PS1='[\u@\h \W]\$ '
+
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
 eval "$(starship init bash)"
@@ -36,6 +42,7 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
 
 eval "$(zoxide init bash --cmd cd)"
+
 # pnpm
 export PNPM_HOME="/home/hamza/.local/share/pnpm"
 case ":$PATH:" in
