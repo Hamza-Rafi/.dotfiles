@@ -10,6 +10,7 @@ alias grep='grep --color=always'
 alias ip='ip --color=always'
 alias less='less -R'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+alias dotfileslazy='lazygit --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
 alias lazyvim='NVIM_APPNAME=lazynvim nvim'
 
