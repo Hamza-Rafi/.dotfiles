@@ -8,7 +8,7 @@
     "wlr/taskbar"
   ],
   "modules-center": [
-    "hyprland/window"
+    "hyprland/window",
   ],
   "modules-right": [
     "tray",
