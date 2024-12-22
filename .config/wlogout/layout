@@ -34,9 +34,4 @@
     "text" : "Reboot",
     "keybind" : "r"
 }
-{
- 	"label": "Reboot to Windows",
-	"action": "efibootmgr -n 0000 && systemctl reboot",
-	"text": "windowd",
-	"keybind": "w"
-}
+
