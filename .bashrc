@@ -5,7 +5,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=always'
+alias ls='eza --icons=always --header'
+alias tree='ls -T'
 alias grep='grep --color=always'
 alias ip='ip --color=always'
 alias less='less -R'
@@ -53,3 +54,5 @@ esac
 # pnpm end
 
 export PATH=$PATH:/home/hamza/.cargo/bin
+
+export PROMPT_COMMAND="history -a; history -n; $PROMPT_COMMAND"
