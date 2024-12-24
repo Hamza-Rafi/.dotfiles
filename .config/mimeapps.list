@@ -6,11 +6,12 @@ inode/directory=org.gnome.Nautilus.desktop
 text/plain=geany.desktop
 application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop
 application/pdf=org.gnome.Evince.desktop
-text/html=zen-alpha.desktop
+text/html=zen-beta.desktop
 x-scheme-handler/http=zen-beta.desktop
 x-scheme-handler/https=zen-beta.desktop
 x-scheme-handler/about=zen-alpha.desktop
 x-scheme-handler/unknown=zen-alpha.desktop
+text.html=zen-beta.desktop
 
 [Added Associations]
 image/jpeg=org.gnome.eog.desktop;
@@ -19,3 +20,4 @@ application/vnd.efi.iso=gnome-disk-image-writer.desktop;
 text/plain=org.gnome.gedit.desktop;nvim.desktop;geany.desktop;
 application/vnd.openxmlformats-officedocument.presentationml.presentation=firefox.desktop;org.pwmt.zathura.desktop;org.gnome.Evince.desktop;libreoffice-impress.desktop;
 application/pdf=org.gnome.Evince.desktop;zen-beta.desktop;
+text/html=zen-beta.desktop;
