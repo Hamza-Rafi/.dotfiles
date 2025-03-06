@@ -25,7 +25,7 @@ font_size 14.0
 
 #: Font size (in pts).
 
-force_ltr no
+# force_ltr no
 
 #: kitty does not support BIDI (bidirectional text), however, for RTL
 #: scripts, words are automatically displayed in RTL. That is to say,
@@ -1179,8 +1179,7 @@ touch_scroll_multiplier 4.0
 
 #: The foreground and background colors.
 
-# background_opacity 0.75
-background_opacity 0.85
+background_opacity 0.75
 
 #: The opacity of the background. A number between zero and one, where
 #: one is opaque and zero is fully transparent. This will only work if
@@ -2595,8 +2594,7 @@ map ctrl+v       paste_from_clipboard
 #: }}}
 
 
-# map ctrl+1 send_text \033Ptmux;select-window -t 1\033\\
 # BEGIN_KITTY_THEME
-# Tokyo Night
+# Catppuccin-Macchiato
 include current-theme.conf
 # END_KITTY_THEME
